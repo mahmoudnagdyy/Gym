@@ -1,0 +1,42 @@
+.about img {
+    width: 600px;
+    height: 600px;
+}
+
+.about .pp {
+    max-width: 500px;
+}
+
+@media (max-width: 400px) {
+    .about {
+        flex-direction: column;
+    }
+
+    .about-container {
+        flex-direction: column;
+        margin: auto;
+    }
+}
+
+
+@media (min-width: 400px) and (max-width: 600px) {
+    .about {
+        flex-direction: column;
+    }
+
+    .about-container {
+        flex-direction: column;
+        margin: auto;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 800px) {
+    .about {
+        flex-direction: column;
+    }
+
+    .about-container {
+        flex-direction: column;
+        margin: auto;
+    }
+}

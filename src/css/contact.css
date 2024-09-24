@@ -1,0 +1,50 @@
+.name {
+    background-color: #303030;
+    width: 500px;
+    color: white;
+    padding: 20px 15px;
+    outline: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.email {
+    background-color: #303030;
+    width: 500px;
+    color: white;
+    padding: 20px 15px;
+    outline: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+
+}
+
+textarea {
+    background-color: #303030;
+    width: 500px;
+    color: white;
+    padding: 20px 15px;
+    outline: none;
+    border-radius: 5px;
+    resize: none;
+    height: 200px;
+}
+
+
+@media (max-width: 520px) {
+
+    .name {
+        width: 270px;
+        margin: auto auto 12px;
+    }
+
+    .email {
+        width: 270px;
+        margin: auto auto 12px;
+    }
+
+    textarea {
+        width: 270px;
+        margin: auto auto 12px;
+    }
+}

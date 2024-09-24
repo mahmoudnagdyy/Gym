@@ -1,0 +1,38 @@
+.features img {
+    margin: auto;
+}
+
+@media (max-width: 400px) {
+    .features-container {
+        flex-direction: column;
+    }
+
+    .feature {
+        width: 95%;
+        margin-bottom: 70px;
+    }
+}
+
+
+@media (min-width: 400px) and (max-width: 600px) {
+    .features-container {
+        flex-direction: column;
+    }
+
+    .feature {
+        width: 95%;
+        margin-bottom: 70px;
+    }
+}
+
+
+@media (min-width: 600px) and (max-width: 800px) {
+    .features-container {
+        flex-direction: column;
+    }
+
+    .feature {
+        width: 95%;
+        margin-bottom: 70px;
+    }
+}
